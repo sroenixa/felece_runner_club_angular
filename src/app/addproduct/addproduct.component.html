@@ -1,0 +1,60 @@
+
+  <div class="py-5 text-center">
+    <h2>Product Add Form</h2>
+</div>
+
+<div class="row">
+      
+    <div class="col-md-12">
+      <form [formGroup]="productAddForm" (ngSubmit)="onSubmit()">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" formControlName="title">
+          </div>
+
+          <div class="col-sm-6">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" class="form-control" id="description" formControlName="description">
+          </div>
+
+          <div class="col-sm-6">
+            <label for="price" class="form-label">Price</label>
+            <input type="text" class="form-control" id="price" formControlName="price">
+          </div>
+
+          <div class="col-sm-6">
+            <label for="rating" class="form-label">Rating</label>
+            <input type="text" class="form-control" id="rating" formControlName="rating">
+          </div>
+
+
+          <div class="col-sm-6">
+            <label for="stock" class="form-label">Stock</label>
+            <input type="text" class="form-control" id="stock" formControlName="stock">
+          </div>
+
+
+          <div class="col-sm-6">
+            <label for="image" class="form-label">Image Url</label>
+            <input type="text" class="form-control" id="image" formControlName="image">
+          </div>
+          
+
+          <div class="col-12">
+            <label for="country" class="form-label">Country</label>
+            <select class="form-select" formControlName="categoryId">
+                <option value="">Choose Category</option>
+                <option *ngFor="let category of categories" [ngValue]="category.id">{{category.categoryName}}</option>
+            </select>
+          </div>
+
+
+        </div>
+
+        <hr class="my-4">
+
+        <button class="w-100 btn btn-primary btn-lg" [disabled]="productAddForm.invalid" type="submit">Save Product</button>
+      </form>
+    </div>
+  </div>

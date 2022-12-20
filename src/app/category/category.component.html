@@ -1,0 +1,6 @@
+<div class="card bg-light mb-3">
+    <div class="card-header bg-secondary text-white text-uppercase"><i class="fa fa-list"></i> Categories</div>
+    <ul class="list-group category_block">
+        <li *ngFor="let category of categories" class="list-group-item"><a routerLink="/category/{{category.id}}" class="text-secondary">{{category.categoryName}}</a></li>
+    </ul>
+</div>

@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": "5459",
+      "rating": "4.68",
+      "stock": "140",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1606541133802-257821b63813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 13 Pro",
+      "description": "An apple mobile which is nothing like apple",
+      "price": "5429",
+      "rating": "4.49",
+      "stock": "140",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1641460228909-3cd6e2cad4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1836&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Macbook Pro",
+      "description": "An apple computer which is nothing like apple",
+      "price": "5549",
+      "rating": "4.80",
+      "stock": "140",
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1547731030-cd126f44e9c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
+    },
+    {
+      "id": 4,
+      "title": "iPhone 13 Pro",
+      "description": "An apple mobile which is nothing like apple",
+      "price": "5429",
+      "rating": "4.49",
+      "stock": "140",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1641460228909-3cd6e2cad4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1836&q=80"
+    },
+    {
+      "id": 6,
+      "title": "iphone6",
+      "description": "iphone 6 description",
+      "price": "123",
+      "rating": "4.5",
+      "stock": "124",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1641460228909-3cd6e2cad4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1836&q=80"
+    },
+    {
+      "id": 7,
+      "title": "macbook 15",
+      "description": "macbook 15 desc",
+      "price": "500",
+      "rating": "5.0",
+      "stock": "500",
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1641460228909-3cd6e2cad4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1836&q=80"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "iPhone"
+    },
+    {
+      "id": 2,
+      "categoryName": "Macbook"
+    }
+  ]
+}
